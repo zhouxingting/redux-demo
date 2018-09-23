@@ -1,0 +1,68 @@
+.titleStyle {
+    display: inline-block;
+    overflow: hidden;
+    width: auto;
+    margin: 0;
+    text-overflow: ellipsis;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 44px;
+    position: absolute;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+}
+.cloW {
+    color: white;
+}
+.mui-bar-nav {
+    -webkit-box-shadow: 0 0 0 #ccc;
+    box-shadow: 0 0 0 #ccc;
+}
+.mui-bar {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    height: 44px;
+    padding-right: 10px;
+    padding-left: 0px;
+    border-bottom: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.Bgbule {
+    background-color: #0E7BE0;
+}
+.weekReportCnt {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.reportTopInfo {
+    display: flex;
+}
+.reportTopInfo>div:first-child {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+.reportTopInfo>div:last-child {
+    font-size: 16px;
+}
+.reportTopInfo img {
+    width: 100%;
+    height: 100%;
+}
+.reportCenter {
+    /* margin: 10px 0px 0px 0px; */
+}
+.textGray {
+    color: #999;
+}
+.projectTitle {
+    margin: 10px 0px;
+    font-size: 16px;
+}

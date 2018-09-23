@@ -1,0 +1,115 @@
+.login-bg{
+	width:100%;
+	height:100%;
+	background-image: url(../img/bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #fffffa;
+    font-size: 14px;
+}
+.login-input{
+	width:80%;
+	margin:0px auto;
+	padding:5px 0px;
+	padding-left:45px;
+	border-radius: 25px !important;
+	border:1px solid #fff;
+	height:42px !important;
+	margin-top:70px;
+}
+.login-input input{	
+	width:100%;
+ 	outline: none;
+	background-color: rgba(255,255,255,0);
+	border:1px solid transparent;
+	margin: 0px !important;
+	border-left: 1px solid #aaa;
+	height:30px;
+ }
+.login-input-c{
+	background:url(../img/userhead.png) no-repeat;
+    background-position: 10px 5px;
+    background-size: 25px;
+	background-color: #fff;
+}
+.login-input-p{
+	margin-top: 20px !important;
+	background:url(../img/userpsd.png) no-repeat;
+    background-position: 10px 5px;
+    background-size: 25px;
+	background-color: #fff;
+}
+.login-btn{
+	width:80%;
+	margin:0px auto;
+	margin-top: 20px;
+}
+.right{
+	float:right;
+}
+
+.login-btn>button{
+	width:100%;
+	display: block;
+	color: #0E7BE0;
+	font-size: 18px;
+	border-radius: 25px !important;
+	background:url(../img/bottonbg.png) no-repeat;
+	background-size: cover;
+	border: 0px;
+}
+.logo-img{
+	text-align: center;
+    /*background: url(../img/logoname.png) no-repeat;*/
+    /*background-size: contain;*/
+    /*height: 115px;*/
+    width: 100%;
+    /*background-position: 50% 0px;*/
+}
+.logo-img>img:first-child {
+    width: 145px;
+    height: 85px;
+}
+.logo-img>img{
+	display: block;
+	margin: 0px auto;
+}
+.logo-img>img{
+    width: 260px;
+}
+.logo-img>p{
+	margin-top:20px;
+	color:#fff;
+	font-size:20px;
+	font-weight: bold;
+}
+.login-link{
+    width: 80%;
+    margin: 10px auto;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.login-link>div:last-child{
+	float: right;
+	color: transparent;
+}
+.muiInputCnt {
+    height: 40px;
+    float: left;
+    position: relative;
+    padding-right: 10px;
+}
+.muiInputCnt input {
+    left: 0px;
+    top: 0px !important;
+}
+.muiInputCnt span {
+    padding-left: 29px;
+    display: inline-block;
+    margin-top: 4px;
+    color: #fff;
+}
+.App {
+	height: 100%;
+}

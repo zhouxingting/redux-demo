@@ -1,0 +1,74 @@
+.writeWeekly {
+    width: 100%;
+    height: 100%;
+}
+.weekReport {
+    padding-top: 10px;
+    position: absolute;
+    top: 44px;
+    bottom: 0px;
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 70px;
+}
+input[type=text] {
+    margin-bottom: 0px;
+}
+.taskInput input {
+    text-align: right;
+    padding-right: 5px !important;
+}
+.submit button {
+    background: #0e7be0;
+    color: #fff;
+    border: 0px;
+    width: 90%;
+    padding: 10px 0px;
+    position: fixed;
+    left: 5%;
+    bottom: 20px;
+    font-size: 17px;
+}
+/* 动态增删节点动画 */
+.item-transition-enter {
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+.taskTextarea .am-textarea-label {
+    width: 105px;
+}
+.item-transition-enter.item-transition-enter-active {
+    opacity: 1;
+}
+/* router转场动画效果 */
+.animate-slide-left-appear {
+  transform: translate(100%, 0);
+}
+.animate-slide-right-appear {
+  transform: translate(-100%, 0);
+}
+.animate-slide-left-appear.animate-slide-left-appear-active,
+.animate-slide-right-appear.animate-slide-right-appear-active {
+  transform: translate(0, 0);
+  transition: transform .2s ease-in;
+}
+/* router离开动画 */
+.animate-slide-left-leave {
+    transform: translate(0, 0);
+}
+.animate-slide-left-leave.animate-slide-left-leave-active {
+    transform: translate(100%, 0);
+    transition: transform .2s ease-in;
+}
+.animate-slide-left-enter {
+    transform: translate(100%, 0);
+}
+.animate-slide-right-enter {
+transform: translate(-100%, 0);
+}
+.animate-slide-left-enter.animate-slide-left-enter-active,
+.animate-slide-right-enter.animate-slide-right-enter-active {
+transform: translate(0, 0);
+transition: transform .2s ease-in;
+}
+

@@ -1,0 +1,287 @@
+.headerStyle {
+    background: #0E7BE0;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0;
+    height: 200px;
+    z-index: 10;
+    padding: 5px;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-position: center;
+	transition:all 0.3s;
+	-moz-transition:all 0.3s; /* Firefox 4 */
+	-webkit-transition:all 0.3s; /* Safari and Chrome */
+	-o-transition:width 0.3s; /* Opera */
+}
+.topCnt img {
+    width: 25px;
+    vertical-align: middle;
+}
+
+.topCnt .topCenter {
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 100px;
+}
+.topRight {
+    float: right;
+}
+.topLeft img {
+    margin-right:5px;
+}
+
+.topCenterCnt {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.topCenterCnt .topCenter,.topCenterCnt .topCenterRight,.topCenterCnt .topCenterText {
+	display: inline-block;
+	margin-right: 5px;
+}
+.topCenterText{
+    font-size: 80px;
+    line-height: 100px;
+}
+.topCenter img {
+    width: 90px;
+    vertical-align: middle;
+}
+.topCenterRight img {
+    width: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.topCenterRight span {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.topCenterRight div {
+    text-align: left;
+    color: rgb(225, 232, 243);
+}
+.topCenterRight div:first-child {
+    margin-bottom: 25px;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.topBottom {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.topBottom div {
+    margin: 0px 10px;
+}
+.topBottom span {
+	text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    width: 100%;
+}
+.centerStyle {
+    position: absolute;
+    top: 200px;
+    bottom: 50px;
+    width: 100%;
+    overflow: scroll;
+	background: #fff;
+}
+.centerStyleCnt {
+    width: 100%;
+    overflow: scroll;
+    border-top: 10px solid #E6E6E6;
+    display: flex;
+	display: -webkit-flex; /* Safari */
+	flex-wrap: wrap;
+}
+.centerStyle img {
+    width: 40px;
+	margin-bottom: 5px;
+}
+.centerBtn {
+    width: 33.3%;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #EDEDED;
+}
+.centerBtn div {
+    color: #000;
+    font-size: 14px;
+}
+.centerBtn a {
+    -webkit-tap-highlight-color: rgba(237, 237, 237, 0.6);
+    display: block;
+    padding: 13px 0px;
+}
+.circleNews {
+	border: 5px solid #fa674b;
+	border-radius:50%;
+	position: absolute;
+	right:5px;
+}
+.topLeft{
+	  width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: left;
+
+}
+.inputDiv {
+    width: 100%;
+    height: 20px;
+    background: #F5F7FA;
+    border-radius: 10px;
+}
+.searchBtn {
+    width: 20px !important;
+    float: right;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+.benWeather {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
+}
+.weatherTopspan {
+/*    margin-bottom: 10px;*/
+    color: #dfeefa;
+    font-size: 14px;
+}
+.btnWeatherInfo {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.btnWeatherInfo .infoCnt {
+    width: 25%;
+    font-size: 14px;
+    color: #dfeefa;
+}
+.infoCnt img {
+	width: 30px;
+}
+.popupWin {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+}
+.popupMaskWin {
+    background: rgba(0, 0, 0, 0);
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+}
+.popupContent {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+.popupContent {
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 20px 4px rgba(7, 115, 215, 0.45);
+}
+.popupTitle {
+    padding: 5px;
+    background: #107BDF;
+    font-size: 14px;
+    color: #fff;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px 0px rgba(7, 115, 215, 0.45);
+}
+.popupTitle img {
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 17px;
+    margin-bottom: 3px;
+}
+.popupCntInfo {
+	font-size: 14px;
+    text-align: left;
+    padding-left: 10px;
+}
+.weatherSlide {
+    text-align: right;
+    font-size: 14px;
+    /* border: 1px solid rgba(255, 255, 255, 0.5); */
+    /* width: 50%; */
+    margin: auto;
+    border-radius: 50px;
+    padding: 1px 0px;
+    margin-top: 5px;
+}
+.weatherSlide img {
+	width: 17px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+.weatherSlide span:first-child {
+	margin-right: 5px;
+}
+.weatherSlide span:last-child {
+	font-size: 18px;
+}
+.dayWeatherCnt {
+	overflow: scroll;
+}
+.dayWeather {
+    font-size: 14px;
+    text-align: center;
+    width: 14.285%;
+}
+.dayWeather img {
+    width: 30px;
+}
+.weatherWin {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.weatherEchart {
+	width: 600px;
+	height: 150px;
+}
+.weatherText {
+    margin-top: -7px;
+}
+.indexDelete {
+    width: 15px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+.deleteImg {
+    position: absolute;
+    right: -10px;
+    top: -8px;
+}
+.deleteImg img {
+    width: 23px;
+}
+.headerCenter {
+	display: flex;
+    width: 100%;
+    position: relative;
+}
+.indexNoDataImg {
+    text-align: center;
+}
+.indexNoDataImg img {
+    width: 250px;
+    margin-top: 100px;
+}
